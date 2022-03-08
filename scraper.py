@@ -62,5 +62,6 @@ print(df)
 
 # worksheet.update([df.columns.values.tolist()] + df.values.tolist())
 
-df.to_csv("oil-prices.csv", index=0)
+if len(df) > 1:
+	df.to_csv("oil-prices.csv", index=0)
 
