@@ -1,0 +1,6 @@
+# created by virtualenv automatically
+kinetic*
+pyve*
+lib/
+bin/
+.DS_Store
