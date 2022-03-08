@@ -2,9 +2,9 @@ import json
 
 import requests
 import pandas as pd 
-import gspread
-from df2gspread import df2gspread as d2g
-from google.oauth2.service_account import Credentials
+# import gspread
+# from df2gspread import df2gspread as d2g
+# from google.oauth2.service_account import Credentials
 
 
 
